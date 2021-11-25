@@ -1,0 +1,1 @@
+export { TotalCard } from "./TotalCard";

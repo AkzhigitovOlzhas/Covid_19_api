@@ -1,0 +1,58 @@
+.covid-card {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.covid-card__date {
+  font-style: 22px;
+  font-weight: bold;
+}
+
+.covid-card__info {
+  width: 55%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+}
+
+/* .covid-card__text {
+} */
+
+.covid-card__badge {
+  padding: 5px;
+  font-weight: bold;
+  background: #edf7ff;
+}
+
+.covid-card__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1100px) {
+  .covid-card__info {
+    width: 70%;
+  }
+  .covid-card {
+    padding: 20px 0;
+  }
+}
+@media (max-width: 600px) {
+  .covid-card__date {
+    margin-bottom: 10px;
+  }
+  .covid-card {
+    flex-direction: column;
+  }
+  .covid-card__info {
+    width: 100%;
+  }
+}

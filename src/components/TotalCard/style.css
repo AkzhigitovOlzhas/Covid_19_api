@@ -1,0 +1,43 @@
+.total-card {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  background: #1bbc9b;
+  border-radius: 20px;
+}
+
+.total-card__title {
+  text-align: center;
+  font-size: 28px;
+}
+.total-card__quantity {
+  margin: 60px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+}
+.total-card__block {
+}
+.total-card__line {
+  height: 1px;
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+}
+.total-card__date {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+@media (max-width: 850px) {
+  .total-card__quantity {
+    margin: 20px 0;
+  }
+  .total-card {
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: #1bbc9b;
+  }
+}

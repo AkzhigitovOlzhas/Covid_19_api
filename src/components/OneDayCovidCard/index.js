@@ -1,0 +1,1 @@
+export { OneDayCovidCard } from "./OneDayCovidCard";
